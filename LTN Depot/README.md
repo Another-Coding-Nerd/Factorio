@@ -2,7 +2,7 @@
 
 A configurable depot blueprint for use with LTN.
 
-![Depot Image](LTN Depot - Overview.png)
+![Depot Image](Overview.png)
 
 ### Pre-Reqs
 - Knowledge of LTN is assumed
@@ -32,26 +32,26 @@ A configurable depot blueprint for use with LTN.
 - Lay down the BP and quickly check several items
     1. All LTN Stations are named *Depot*
     2. The **#6 Depot Signal** is enabled and sending out a Depot Signal. It should look like this:
-    ![Depot Signal](No6 Depot Signal.PNG)
+    ![Depot Signal](DepotSignal.PNG)
     3. The **#5 Loco Config Bank** Constant CombinatorS are all disabled except for the rightmost unit
-    ![Loco Bank 1](No5 Loco Rightmost Signal.PNG)
+    ![Loco Bank 1](Rightmost.PNG)
 
 ## Loco Configuration
 
 Now it's time to plug-in you train setup. It's easier that you think! For each position where you'll have a locomotive, enable the loco signal on the corresponding constant combinator. You will enable and disable various items down in the The **#5 Loco Config Bank** Constant Combinators are of the depot. Let's look at some examples.
 
 ### 1-2 Train Example
-![1-2 Train](No5 Loco 1-2 Train.PNG)
+![1-2 Train](1-2Train.PNG)
 
 The BP comes configured this way. Positions are 1 .. 10 from Right to Left. Orange lines are just to mark train positions. Constant Combinator in position 1 is enabled (marked in green) and postions 2 .. 10 are disabled (marked in red). This will refuel the locomotive in position 1 and unload any cargo from positions 2 .. 10.
 
 ### 1-4-1 Train Example
-![1-4-1 Train](No5 Loco 1-4-1 Train.PNG)
+![1-4-1 Train](1-4-1Train.PNG)
 
 Constant Combinator in position 1 is enabled (marked in green) and positions 2 .. 5 are disabled (marked in red). Followed by position 6 being enabled (marked in green) as well. This will refuel the locomotive in positions 1 & 6, but will unload any cargo from positions 2 .. 5.
 
 ### 2-2-2 Train Example
-![2-2-2 Train](No5 Loco 2-2-2 Train.PNG)
+![2-2-2 Train](2-2-2Train.PNG)
 
 *yes I understand this is a silly example!* Constant Combinators in positions 1 & 2 are enabled (marked in green) and positions 3 & 4 are disabled (marked in red). Followed by positions 5 & 6 being enabled (marked in green) as well. This will refuel the locomotive in positions 1, 2, 5 & 6, but will unload any cargo from positions 3 & 4.
 
