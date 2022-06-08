@@ -28,6 +28,7 @@ A configurable depot blueprint for use with LTN.
 - If setup as outlined above, you can have a handy tool to add extra inventory to the train provider network. Say you are at an LTN station and you just cleared a mass of trees. Place them into the spare cargo slots of the train before it leaves. It'll get emptied at the depot and make it's way down to the overflow Provider Station (**#4 Cargo Out** belt) and be available for train requests!
 - The **#5 Loco Config Bank** Constant Combinator work as follows. When a locomotive signal is set for a given position, the inserter to load fuel into the loco is enabled. Otherwise the other inserter is enabled to unload cargo.
 - There is never a need to have the 1st Loco Config Constant Combinator disabled. (More about Loco Configuration elsewhere) The first car in the train is always a Loco. However I wanted some consistency in the layout.
+- It may not be immediately obvious that all trains in the depot need to have the same layout (1-4, 2-4-2, etc) but also you can have multiple depots each supporting different train layouts. For example you could send all 1-4 trains to a depot setup with a name of *Depot14* and some 2-4-2 trains going to a separate depot setup named *Depot242*. That's two independent 12-Lane depot setups servicing different train lengths in the same base. I'm not sure why you would do this to yourself, but each to their own.
 
 
 ## BP Quick Setup
