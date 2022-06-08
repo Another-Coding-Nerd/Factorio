@@ -41,7 +41,7 @@ A configurable depot blueprint for use with LTN.
 
 ## Loco Configuration
 
-Now it's time to plug-in you train setup. It's easier that you think! For each position where you'll have a locomotive, enable the loco signal on the corresponding constant combinator. You will enable and disable various items down in the The **#5 Loco Config Bank** Constant Combinators are of the depot. Let's look at some examples.
+Now it's time to plug-in your train setup. It's easier that you think! For each position where you'll have a locomotive, enable the loco signal on the corresponding constant combinator. You will enable and disable various items down in the The **#5 Loco Config Bank** Constant Combinators area of the depot. Let's look at some examples.
 
 ### 1-2 Train Example
 ![1-2 Train](img/1-2Train.png)
