@@ -36,7 +36,7 @@ A configurable depot blueprint for use with LTN.
     1. All LTN Stations are named *Depot*
     2. The **#6 Depot Signal** is enabled and sending out a Depot Signal. It should look like this:
     ![Depot Signal](img/DepotSignal.png)
-    3. The **#5 Loco Config Bank** Constant CombinatorS are all disabled except for the rightmost unit
+    3. The **#5 Loco Config Bank** Constant Combinators are all disabled except for the rightmost unit
     ![Loco Bank 1](img/Rightmost.png)
 
 ## Loco Configuration
