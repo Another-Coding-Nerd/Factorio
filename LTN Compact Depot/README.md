@@ -61,13 +61,16 @@ Constant Combinator in position 1 is enabled (marked in green) and positions 2 .
 
 
 ### To-Do/Future
-- Expand to a 12x12 setup (to support 2-8-2 trains) and test.
+- ~~Expand to a 12x12 setup (to support 2-8-2 trains) and test.~~
+- Update pics/docs for 12x12 station
 
 ## Authors
 
 Me. Updates and improvements are welcome. Please submit a PR. I'm sure this can be improved!
 
 ## Version History
+- v1.1
+    * Added 12x12 depot with these changes ( add lights, expanded to 12 positions, signals now carried on poles, removed 1st constant combinator )
 
 - v1
     * Initial Release
